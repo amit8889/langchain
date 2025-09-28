@@ -7,7 +7,7 @@ export class Ai {
     });
   }
 
-  async init() {
+  async tool_calling() {
     console.log("AI initialized ");
     process.stdin.addListener("data", async (data) => {
       try {
@@ -73,4 +73,5 @@ export class Ai {
       }
     });
   }
+  
 }
