@@ -10,3 +10,4 @@ dotenv.config();
 // import("./embedding_model/open_ai.js");
 
 //similarity search
+import("./similarity_search/index.js");
